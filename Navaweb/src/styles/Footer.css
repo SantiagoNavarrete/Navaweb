@@ -1,0 +1,37 @@
+/* Footer Component Styles */
+.footer {
+  padding: 40px 60px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: var(--bg);
+}
+
+.footer-logo img {
+  height: 32px;
+}
+
+.footer-copy {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.footer-copy a {
+  color: var(--purple-light);
+  text-decoration: none;
+}
+
+.footer-copy a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding: 30px 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
