@@ -4,6 +4,7 @@ import Navigation from './components/Navigation.jsx'
 import Hero from './components/Hero.jsx'
 import Divider from './components/Divider.jsx'
 import Services from './components/Services.jsx'
+import Portfolio from './components/Portfolio.jsx'
 import About from './components/About.jsx'
 import Process from './components/Process.jsx'
 import Contact from './components/Contact.jsx'
@@ -15,8 +16,12 @@ function App() {
     <>
       <Navigation />
       <Hero />
+      
+      <About />
       <Divider />
       <Services />
+      <Portfolio />
+      <Divider />
       <About />
       <Process />
       <Contact />

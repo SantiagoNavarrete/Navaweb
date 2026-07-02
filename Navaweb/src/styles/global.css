@@ -9,6 +9,18 @@
   --white: #F0EAF8;
   --muted: #8B7AA0;
   --border: rgba(168, 85, 247, 0.18);
+  /* Typography */
+  --heading: 'Syne', sans-serif;
+  --mono: 'Courier New', monospace;
+  /* Text colors */
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  /* Code */
+  --code-bg: #1f2028;
+  /* Accent */
+  --accent: #c084fc;
+  --accent-bg: rgba(192, 132, 252, 0.15);
+  --accent-border: rgba(192, 132, 252, 0.5);
 }
 
 * {
@@ -46,7 +58,7 @@ body {
   font-family: 'Syne', sans-serif;
   font-size: clamp(28px, 4vw, 48px);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .section-title .accent {
