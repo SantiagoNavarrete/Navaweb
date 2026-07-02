@@ -30,13 +30,13 @@ export default function Contact() {
                   <div className="contact-option-value">+54 9 2604635871</div>
                 </div>
               </a>
-              <a href="https://github.com/santiagonavarrete" target="_blank" rel="noopener noreferrer" className="contact-option">
+              <a href="https://github.com/SantiagoNavarrete" target="_blank" rel="noopener noreferrer" className="contact-option">
                 <div className="contact-option-icon">
                   {githubIcon}
                 </div>
                 <div className="contact-option-text">
                   <div className="contact-option-label">GitHub</div>
-                  <div className="contact-option-value">github.com/santiagonavarrete</div>
+                  <div className="contact-option-value">github.com/SantiagoNavarrete</div>
                 </div>
               </a>
             </div>

@@ -3,28 +3,19 @@ import '../styles/Portfolio.css';
 const projects = [
   {
     id: 1,
-    title: 'Plataforma SaaS - Dashboard Analytics',
-    description: 'Dashboard interactivo con gráficos en tiempo real, análisis de datos y reportes personalizables. Interfaz intuitiva para empresas que necesitan monitorear métricas críticas.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=400&fit=crop',
-    link: '#',
-    tags: ['React', 'Chart.js', 'Node.js']
+    title: 'Maestro Gas - Plomero Profesional',
+    description: 'Sitio web para plomero y gasista con más de 15 años de experiencia. Destaca servicios, presupuestos sin cargo y disponibilidad de consultas por WhatsApp.',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop',
+    link: 'https://maestrogas.vercel.app/',
+    tags: ['React', 'Responsive', 'Lead Generation']
   },
   {
     id: 2,
-    title: 'E-commerce Premium - Moda Sostenible',
-    description: 'Tienda online completa con catálogo dinámico, carrito de compras, pasarela de pago integrada y sistema de gestión de inventario en tiempo real.',
-    image: 'https://images.unsplash.com/photo-1460925895917-aeb19be489c7?w=500&h=400&fit=crop',
-    image_alt: 'E-commerce',
-    link: '#',
-    tags: ['Next.js', 'Stripe', 'MongoDB']
-  },
-  {
-    id: 3,
-    title: 'Landing Page - Startup Tech',
-    description: 'Sitio web moderno con animaciones fluidas, secciones optimizadas para conversión y diseño responsivo. Resultó en 150% aumento de contactos iniciales.',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=400&fit=crop',
-    link: '#',
-    tags: ['React', 'Tailwind', 'SEO']
+    title: 'Julio Sama - Servicios Inmobiliarios',
+    description: 'Plataforma inmobiliaria moderna con búsqueda de propiedades, administración de ventas y alquileres. Servicio premium 24/7 con ubicaciones interactivas.',
+    image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500&h=400&fit=crop',
+    link: 'https://julio-sama-inmobiliaria-5tze.vercel.app/',
+    tags: ['React', 'Google Maps', 'Next.js']
   }
 ];
 

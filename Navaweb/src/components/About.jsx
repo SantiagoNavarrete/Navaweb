@@ -8,7 +8,7 @@ export default function About() {
   );
 
   const stats = [
-    { number: '+20', label: 'Proyectos entregados' },
+    { number: '+5', label: 'Proyectos entregados' },
     { number: '100%', label: 'Clientes satisfechos' },
     { number: '48h', label: 'Tiempo de respuesta' },
     { number: '∞', label: 'Revisiones incluidas' }
@@ -20,7 +20,6 @@ export default function About() {
         <div className="about-visual">
           <div className="about-card">
             <div className="about-card-glow"></div>
-            <div className="avatar-ring">SN</div>
             <div className="about-name">Santiago Navarrete</div>
             <div className="about-role">Fundador & Desarrollador Web</div>
             <p className="about-bio-card">
@@ -28,9 +27,9 @@ export default function About() {
               Cada proyecto es una oportunidad de superar expectativas y entregar algo realmente especial.
             </p>
             <div className="about-links">
-              <a href="https://github.com/santinavarrete" target="_blank" rel="noopener noreferrer" className="link-btn link-github">
+              <a href="https://github.com/SantiagoNavarrete" target="_blank" rel="noopener noreferrer" className="link-btn link-github">
                 {githubIcon}
-                github.com/santinavarrete
+                github.com/SantiagoNavarrete
               </a>
             </div>
           </div>
