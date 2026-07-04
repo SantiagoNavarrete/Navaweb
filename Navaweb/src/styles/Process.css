@@ -129,6 +129,11 @@
 @media (max-width: 900px) {
   .process {
     padding: 70px 24px;
+    overflow: hidden;
+  }
+
+  .process::before {
+    display: none;
   }
 
   .process-steps {

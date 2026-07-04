@@ -201,6 +201,11 @@
 @media (max-width: 900px) {
   .contact {
     padding: 70px 24px;
+    overflow: hidden;
+  }
+
+  .contact::before {
+    display: none;
   }
 
   .contact-card {

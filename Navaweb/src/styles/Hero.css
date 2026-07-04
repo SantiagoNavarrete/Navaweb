@@ -7,6 +7,9 @@
   position: relative;
   overflow: visible;
   padding: 120px 60px 80px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-bg-n {
@@ -26,6 +29,7 @@
   pointer-events: none;
   animation: floatN 8s ease-in-out infinite;
   filter: drop-shadow(0 0 40px rgba(123, 47, 255, 0.15));
+  white-space: nowrap;
 }
 
 .hero-orb {
@@ -208,15 +212,28 @@
 
 @media (max-width: 900px) {
   .hero {
-    padding: 100px 24px 60px;
+    padding: 80px 20px 60px;
+    overflow: hidden;
+  }
+
+  .hero-bg-n {
+    display: none;
+  }
+
+  .orb1 {
+    display: none;
+  }
+
+  .orb2 {
+    display: none;
   }
 
   .hero h1 {
-    font-size: clamp(32px, 5vw, 48px);
+    font-size: clamp(28px, 5vw, 42px);
   }
 
   .hero-sub {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .hero-actions {
