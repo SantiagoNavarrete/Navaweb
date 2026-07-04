@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: 'Maestro Gas - Plomero Profesional',
     description: 'Sitio web para plomero y gasista con más de 15 años de experiencia. Destaca servicios, presupuestos sin cargo y disponibilidad de consultas por WhatsApp.',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop',
+    image: 'src/assets/screenshot_1.png',
     link: 'https://maestrogas.vercel.app/',
     tags: ['React', 'Responsive', 'Lead Generation']
   },
