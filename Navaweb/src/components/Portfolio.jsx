@@ -1,5 +1,5 @@
 import '../styles/Portfolio.css';
-import screenshot1 from '../assets/screenshot_1.png';
+import screenshot1 from '../assets/Maestrogas.png';
 
 const projects = [
   {
