@@ -16,8 +16,6 @@ function App() {
     <>
       <Navigation />
       <Hero />
-      
-      <About />
       <Divider />
       <Services />
       <Portfolio />

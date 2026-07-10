@@ -212,8 +212,9 @@
 
 @media (max-width: 900px) {
   .hero {
-    padding: 80px 20px 60px;
+    padding: 100px 20px 60px;
     overflow: hidden;
+    min-height: auto;
   }
 
   .hero-bg-n {
@@ -228,20 +229,29 @@
     display: none;
   }
 
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
   .hero h1 {
     font-size: clamp(28px, 5vw, 42px);
   }
 
   .hero-sub {
     font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-actions {
     flex-direction: column;
     gap: 12px;
+    justify-content: center;
   }
 
   .btn-primary, .btn-ghost {
     width: 100%;
+    text-align: center;
   }
 }

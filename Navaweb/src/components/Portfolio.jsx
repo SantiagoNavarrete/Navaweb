@@ -1,11 +1,12 @@
 import '../styles/Portfolio.css';
+import screenshot1 from '../assets/screenshot_1.png';
 
 const projects = [
   {
     id: 1,
     title: 'Maestro Gas - Plomero Profesional',
     description: 'Sitio web para plomero y gasista con más de 15 años de experiencia. Destaca servicios, presupuestos sin cargo y disponibilidad de consultas por WhatsApp.',
-    image: 'src/assets/screenshot_1.png',
+    image: screenshot1,
     link: 'https://maestrogas.vercel.app/',
     tags: ['React', 'Responsive', 'Lead Generation']
   },
@@ -32,7 +33,7 @@ export default function Portfolio() {
           {projects.map((project) => (
             <div key={project.id} className="portfolio-card">
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+                <img src={project.image} alt={project.title} loading="lazy" />
                 <div className="project-overlay">
                   <a href={project.link} className="btn-primary" target="_blank" rel="noopener noreferrer">
                     Ver proyecto →

@@ -65,7 +65,8 @@
 .project-image {
   position: relative;
   width: 100%;
-  height: 320px;
+  aspect-ratio: 16 / 10;
+  min-height: 280px;
   overflow: hidden;
   background: linear-gradient(135deg, rgba(123,47,255,0.1), rgba(168,85,247,0.05));
 }
@@ -73,7 +74,9 @@
 .project-image img {
   width: 100%;
   height: 100%;
+  display: block;
   object-fit: cover;
+  object-position: top center;
   transition: transform 0.4s ease;
 }
 
@@ -162,6 +165,32 @@
   }
 
   .project-image {
-    height: 280px;
+    min-height: 220px;
+  }
+
+  .project-content {
+    padding: 24px;
+  }
+
+  .project-content h3 {
+    font-size: 20px;
+  }
+
+  .project-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    padding: 70px 16px;
+  }
+
+  .project-image {
+    min-height: 200px;
+  }
+
+  .project-content {
+    padding: 20px;
   }
 }
