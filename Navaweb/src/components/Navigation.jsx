@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <nav className="nav">
       <div className="nav-logo">
-        <a href="hero"><Logo size="32px" variant="icon" /></a>
+        <li><a href="hero"><Logo size="32px" variant="icon" /></a></li>
       </div>
       <ul className="nav-links">
         <li><a href="#servicios">Servicios</a></li>
