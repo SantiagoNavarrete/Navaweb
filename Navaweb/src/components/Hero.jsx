@@ -2,7 +2,7 @@ import '../styles/Hero.css';
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id= "heroId">
       <div className="hero-orb orb1"></div>
       <div className="hero-orb orb2"></div>
       <div className="hero-bg-n" aria-hidden="true">N</div>
