@@ -4,7 +4,7 @@ import Logo from './Logo';
 export default function Navigation() {
   return (
     <nav className="nav">
-    <a href="hero">
+    <a href= "#hero" >
        <div className="nav-logo">
         <Logo size="32px" variant="icon" />
       </div>
